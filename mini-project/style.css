@@ -1,0 +1,35 @@
+header{
+    position: fixed;
+    background-color: purple;
+    text-align: center;
+}
+body{
+    background-color: gold;
+    color: black;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+figure{
+    border: 2px solid navy;
+    padding: 4px;
+    margin: auto;
+}
+figcaption{
+    text-align: center;
+
+}
+form{
+    margin: 50px;
+    padding: 5px;
+    border: 5px solid navy;
+    background-color: navajowhite;
+    text-align: center;
+}
+footer{
+    background-color: purple;
+    text-align: center;
+}
