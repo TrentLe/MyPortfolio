@@ -1,0 +1,68 @@
+header{
+    background-color: black;
+    color: white;
+    border: 3px inset red;
+}
+
+h1{
+    
+   text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    
+    font-family: unset;
+    text-align: center;
+}
+
+.box{
+    border-radius: 15px;
+    border-color: black;
+    border: 2px inset;
+}
+
+nav{
+    position: static;
+    text-align: end;
+}
+.dropdown h2{
+    position: static;
+    display: block;
+    font-style: italic;
+    text-align: center;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    margin-left: auto;
+    /* background-color: darkblue; */
+    color: aliceblue;
+    max-width: 700px;
+    min-width: 150px;
+    text-align: center;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+button{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-left: 50%; */
+    text-align: center;
+    display: block;
+    
+
+}
+.container{
+    
+    position: relative;
+   
+    margin-top: 10px;
+    top: 50%;
+    -ms-transform: translateX(25%);
+    transform: translateX(25%);
+}
