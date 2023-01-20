@@ -40,24 +40,21 @@ nav{
     color: aliceblue;
     max-width: 700px;
     min-width: 150px;
-    text-align: center;
+    /* text-align: center; */
 }
 .dropdown:hover .dropdown-content{
-    display: block;
-}
-
-button{
+    display: block; 
     background-color: black;
     color: aliceblue;
     border-radius: 15px;
     font-family: 'Times New Roman', Times, serif;
     /* margin-left: 50%; */
     text-align: center;
-    display: block;
     
-
 }
-.container{
+
+
+/* .container{
     
     position: relative;
    
@@ -65,4 +62,4 @@ button{
     top: 50%;
     -ms-transform: translateX(25%);
     transform: translateX(25%);
-}
+} */
