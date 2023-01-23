@@ -34,13 +34,11 @@ nav{
 }
 .dropdown-content {
     display: none;
-    position: relative;
-    margin-left: auto;
-    /* background-color: darkblue; */
+     margin: auto;
     color: aliceblue;
-    max-width: 700px;
+    max-width: 500px;
     min-width: 150px;
-    /* text-align: center; */
+    text-align: center;
 }
 .dropdown:hover .dropdown-content{
     display: block; 
@@ -50,6 +48,7 @@ nav{
     font-family: 'Times New Roman', Times, serif;
     /* margin-left: 50%; */
     text-align: center;
+    padding: 10px;
     
 }
 
